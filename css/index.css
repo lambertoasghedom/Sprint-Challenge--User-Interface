@@ -159,10 +159,6 @@ footer nav a {
     text-decoration: none;
 }
 
-.links {
-    display: flex;
-}
-
 /* banner */
 
 .banner {
@@ -210,4 +206,63 @@ footer nav a {
 .boxes .box:nth-child(10) {
     background-color: dodgerblue;
 }
+
+/* about.html */
+
+.about-top-content {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* about-middle-content */
+
+.about-middle-content {
+    display: flex;
+}
+
+.about-middle-content .flex {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.about-middle-content h2, .about-middle-content button {
+    margin-top: 15px;
+}
+
+button {
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 1rem; 
+}
+
+/* about-bottom-content */
+
+.about-bottom-content {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom-content .flex h2 {
+    margin-top: 15px;
+}
+
+.about-middle-content p, .about-bottom-content p {
+    padding-bottom: 15px;
+}
+
+/* last */
+
+section .last-section {
+    padding-top: 40px;
+}
+
+section .last-section p {
+    padding-bottom: 30px;
+}
+
+
 
