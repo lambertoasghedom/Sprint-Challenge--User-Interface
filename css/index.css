@@ -224,6 +224,7 @@ footer nav a {
 .about-middle-content .flex {
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+    margin-right: 20px;
 }
 
 .about-middle-content h2, .about-middle-content button {
@@ -242,12 +243,17 @@ button {
 
 .about-bottom-content {
     display: flex;
-    padding: 50px 0;
-    border-bottom: 1px dashed black;
+    padding-top: 50px;
 }
 
 .about-bottom-content .flex h2 {
     margin-top: 15px;
+}
+
+.about-bottom-content .flex {
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
 }
 
 .about-middle-content p, .about-bottom-content p {
@@ -257,11 +263,11 @@ button {
 /* last */
 
 section .last-section {
-    padding-top: 40px;
+    padding: 40px 0;
 }
 
 section .last-section p {
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 
