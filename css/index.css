@@ -260,15 +260,10 @@ button {
     padding-bottom: 15px;
 }
 
-/* last */
+/* last-section */
 
-section .last-section {
+.last-section {
     padding: 40px 0;
 }
-
-section .last-section p {
-    /* padding-bottom: 30px; */
-}
-
 
 
