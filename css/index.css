@@ -180,7 +180,7 @@ footer nav a {
 }
 
 .middle-content .boxes .box5 {
-    background-color: #crimson;
+    background-color: crimson;
 }
 
 .middle-content .boxes .box6 {
@@ -202,4 +202,28 @@ footer nav a {
 .middle-content .boxes .box10 {
     background-color: dodgerblue;
 }
+
+/* mobile responsive */
+
+@media (max-width: 500px) {
+    .container {
+        width: auto;
+    }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .navbar a:first-child {
+        display: none;
+    } */
+
+    .navbar a {
+        text-align: center;
+    }
+
+}
+
 
